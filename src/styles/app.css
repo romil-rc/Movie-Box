@@ -1,0 +1,21 @@
+.outer-card {
+  height: 400px;
+  /* border-radius: 25px; */
+  transition: transform 0.2s;
+  box-shadow: 0px 0px 10px 2px antiquewhite;
+}
+.outer-card:hover {
+  transform: scale(1.1);
+}
+.card-img-top {
+  height: 250px;
+}
+.card-body {
+  height: 110px;
+}
+.card-title a {
+  color: bisque;
+}
+.card-title a:hover {
+  color: antiquewhite;
+}

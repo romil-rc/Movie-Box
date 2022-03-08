@@ -1,0 +1,41 @@
+* {
+  background-color: black;
+}
+
+.App {
+  font-family: "Cutive Mono", monospace;
+  text-align: center;
+  color: white;
+}
+.heading {
+  color: burlywood;
+  text-decoration-line: none;
+  font-size: 50px;
+}
+.heading:hover {
+  color: bisque;
+  transition: ease-in-out;
+  transition-duration: 500ms;
+}
+.search {
+  /* border: 2px solid red; */
+  display: inline-flex;
+  width: 75%;
+  font-size: 25px;
+  padding: 6px;
+}
+input {
+  margin-right: 10px;
+  border: none;
+  width: 100%;
+  color: bisque;
+}
+svg {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+svg:hover {
+  cursor: pointer;
+  color: bisque;
+}
